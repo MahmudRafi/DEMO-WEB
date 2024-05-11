@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glowing Text</title>
+<style>
+  body {
+    background-color: #111; /* Dark background color */
+    color: #ddd; /* Off white text color */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align text */
+    margin: 20px 0; /* Add space at the top and bottom */
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: flex-start; /* Start from upper center */
+    align-items: center; /* Center horizontally */
+  }
+
+  .glow {
+    font-size: 48px; /* Larger text size */
+    font-weight: bold;
+    text-shadow: 0 0 3px rgba(0,255,0,0.2), 0 0 6px rgba(0,255,0,0.2), 0 0 9px rgba(0,255,0,0.2), 0 0 12px rgba(0,255,0,0.2), 0 0 15px rgba(0,255,0,0.2), 0 0 18px rgba(0,255,0,0.2), 0 0 21px rgba(0,255,0,0.2); /* Softer glowing effect */
+  }
+
+  .centered-image {
+    width: 50%; /* Set image width to 50% of the container */
+    max-width: 500px; /* Set maximum width for larger screens */
+    margin-top: 20px; /* Add space between the text and the image */
+  }
+
+  .role {
+    font-size: 18px; /* Smaller font size */
+    font-weight: bold;
+    color: #eee; /* Off white text color */
+    margin-top: 10px; /* Add space between the image and the text */
+  }
+
+  .red {
+    color: red; /* Red color for the word "developer" */
+  }
+
+  .telegram-text {
+    font-size: 14px; /* Smaller font size */
+    font-weight: bold;
+    color: #ddd; /* Off white text color */
+    margin-top: 20px; /* Add space between the text and the image */
+  }
+</style>
+</head>
+<body>
+  <div class="glow">./Rafi</div>
+  <img src="img.jpg" alt="Centered Image" class="centered-image">
+  <div class="role">programmer | hacker | blockchain <span class="red">developer</span></div>
+  <div class="telegram-text">Catch me on Telegram: <a href="https://t.me/mahmud_rafi" style="color: #ddd;">t.me/mahmud_rafi</a> 🔥 Let's connect!</div>
+</body>
+</html>
